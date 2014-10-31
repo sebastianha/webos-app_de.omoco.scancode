@@ -1,0 +1,9 @@
+{
+	"id": "de.omoco.scancode",
+	"version": "1.0.0",
+	"vendor": "scancode.omoco.de",
+	"type": "web",
+	"main": "index.html",
+	"title": "ScanCode",
+	"icon": "icon.png"
+}

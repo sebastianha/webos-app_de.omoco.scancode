@@ -1,0 +1,61 @@
+<!--
+ScanCode - An application to decode Barcodes and QR-Codes.
+Version 1.0.0 (25. Jan 2010)
+
+Copyright (C) 2010 Sebastian Hammerl (E-Mail: scancode@omoco.de)
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 3 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, see <http://www.gnu.org/licenses/>.
+-->
+<div id="main">
+    <div class="palm-page-header multi-line">
+        <div id="main-header" class="palm-page-header-wrapper">
+             ScanCode
+        </div>
+    </div>
+    <div id="main-body" class="itemFull">
+    	<table border=0 width=100%>
+    		<tr><td width=50%>
+    		<div id='selectimage' class='palm-button'>Select</button>
+			</td><td width=50%>
+			<div id='cameraimage' class='palm-button'>Capture</button>
+			</td></tr>
+    	</table>
+		
+		<div id=introduction>
+			<br>
+			
+			<center>
+	    	<table border=0 width=70%>
+	    		<tr><td width=100%>
+	    			Welcome to ScanCode. You can choose either to select an already taken image or to take a new snapshot with the internal camera.
+				</td></tr>
+	    	</table>
+			</center>
+		</div>
+
+		<div x-mojo-element="Spinner" id="large-activity-spinner" style="margin:auto"></div>
+
+		<div x-mojo-element="List" id="results"></div>
+		
+		<button id='openurl' class='palm-button'>Open URL</button>
+		<button id='searchproduct' class='palm-button'>Search Product</button>
+		<button id='searchgoogle' class='palm-button'>Search with Google</button>
+		<button id='callnumber' class='palm-button'>Call Number</button>
+		<button id='sendsms' class='palm-button'>Send Message</button>
+		<button id='addcontact' class='palm-button'>Add to Contacts</button>
+		<button id='gotogeo' class='palm-button'>Show on map</button>
+		<button id='sendmail' class='palm-button'>Send Mail</button>
+		<button id='copytext' class='palm-button'>Copy Text</button>
+    </div>
+</div>

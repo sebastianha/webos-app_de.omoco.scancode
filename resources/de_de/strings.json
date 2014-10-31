@@ -1,0 +1,9 @@
+{
+	"Error: No barcode found.": "Fehler: Es konnte kein Barcode gefunden werden.",
+	"Error: No file selected for upload.": "Fehler: Es wurde keine Datei zum Hochladen ausgewählt.",
+	"Error: Wrong file format.": "Fehler: Die Datei hat das falsche Format.",
+	"Error: Filesize too big.": "Fehler: Die Datei ist zu groß.",
+	"Error: Internal server error. Sorry but you cannot do anything.": "Fehler: Interner Serverfehler, da können Sie leider nichts machen.",
+	"About": "Über"
+	
+}
